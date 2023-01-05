@@ -10,13 +10,13 @@ public class Sorting {
 		
 		java.util.Scanner sc = new java.util.Scanner(System.in);
     	
-    	System.out.println("Sıralama için int türünden 3 sayı giriniz: ");
+    		System.out.println("Sıralama için int türünden 3 sayı giriniz: ");
     	
-    	int x = sc.nextInt();
-    	int y = sc.nextInt();
-    	int z = sc.nextInt();
+    		int x = sc.nextInt();
+    		int y = sc.nextInt();
+    		int z = sc.nextInt();
     	
-    	sortingMinToMax(x, y, z);
+    		sortingMinToMax(x, y, z);
 	}
 	
 	public static void sortingMinToMax(int x, int y, int z) {
